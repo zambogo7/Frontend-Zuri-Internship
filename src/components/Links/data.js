@@ -1,7 +1,7 @@
 export const links = [
     {
         id: 'twitter',
-        link: 'https://https://twitter.com/zambogo7',
+        link: 'https://twitter.com/zambogo7',
         name: 'Twitter link'
     },
     {
