@@ -1,16 +1,17 @@
-import React from 'react'
-import './footer.css'
-import red from '../../assets/red.png'
-import ingressive from '../../assets/ingressive.png'
+import zuriLogo from '../../assets/zuri-logo.svg';
+import i4g from '../../assets/I4G.svg';
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer className='footer'>
-      <div className='zuri_logo'>Zuri<img src={red} alt=".." />Internship</div>
-      <p className='footer__text'>HNG Internship 9 Frontend Task</p>
-      <img src={ingressive} className='ingressive__logo' alt="" srcset="" />
+    <footer className="bg-milk  py-12 flex justify-center">
+      <div className="grid justify-center items-center md:grid-cols-3 w-11/12">
+        <img src={zuriLogo} alt="Zuri logo" className="md:mb-0 mb-4 w-36" />
+        <p className="text-base text-gray justify-self-center md:mb-0 mb-5">
+          HNG Internship 9 Frontend Task
+        </p>
+        <img src={i4g} alt="I4g logo" className="place-self-end w-28" />
+      </div>
     </footer>
-  )
-}
-
-export default Footer
+  );
+};
+export default Footer;

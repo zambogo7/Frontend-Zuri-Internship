@@ -1,0 +1,17 @@
+.alert {
+    position: fixed;
+    top: 5%;
+    right: 10%;
+    padding: 1.3rem 1rem;
+    color: #fff;
+    opacity: 0;
+    transform: translateX(120%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 10;
+    border-radius: 5px;
+  }
+  .show_alert {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
